@@ -17,9 +17,9 @@ curl --location --request POST 'localhost:8080/api/auth/signup' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: bezkoder=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcnVuIiwiaWF0IjoxNjY3ODk0NDAxLCJleHAiOjE2Njc5ODA4MDF9.ddSbSJSgkSQvpeWETRxr1BaoQSZPvKtfwe3t3P53P55YTRLm8778OKUQBGc9p7HsvtLlE6zpcelih-17WULy_g; spring-demo-app-cookie=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcnVuIiwiaWF0IjoxNjY3ODk2NjY5LCJleHAiOjE2Njc5ODMwNjl9.Wy99rRJgE-EABfJLqJjUoiyVrp033gASNBqd2TtgwIJUzEb4vL425F-DTjwbumKINWmYtrpt7L8e-pmc5AAjpg' \
 --data-raw '{
-    "username": "arun",
-    "email": "arun@gmail.com",
-    "password": "arun123"
+    "username": "raushan",
+    "email": "raushan@gmail.com",
+    "password": "raushan123"
 }'
 ```
  
@@ -29,7 +29,7 @@ curl --location --request POST 'localhost:8080/api/auth/signin' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: bezkoder=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcnVuIiwiaWF0IjoxNjY3ODk0NDAxLCJleHAiOjE2Njc5ODA4MDF9.ddSbSJSgkSQvpeWETRxr1BaoQSZPvKtfwe3t3P53P55YTRLm8778OKUQBGc9p7HsvtLlE6zpcelih-17WULy_g; spring-demo-app-cookie=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcnVuIiwiaWF0IjoxNjY3ODk2NjY5LCJleHAiOjE2Njc5ODMwNjl9.Wy99rRJgE-EABfJLqJjUoiyVrp033gASNBqd2TtgwIJUzEb4vL425F-DTjwbumKINWmYtrpt7L8e-pmc5AAjpg' \
 --data-raw '{
-    "username": "arun",
-    "password": "arun"
+    "username": "raushan",
+    "password": "raushan"
 }'
 ```
